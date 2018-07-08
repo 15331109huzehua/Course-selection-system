@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="创建课程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/class_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="请输入您要创建的课程名字"/>
+
+    <EditText
+        android:id="@+id/class_time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入您要创建的课程时间"/>
+
+    <EditText
+        android:id="@+id/class_num"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入您要创建的课程容量"/>
+
+    <Button
+        android:id="@+id/class_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认创建"
+        android:layout_marginTop="50dp"/>
+</LinearLayout>

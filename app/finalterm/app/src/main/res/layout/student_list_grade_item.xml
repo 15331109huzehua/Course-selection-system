@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/student_grade_classname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/student_grade_teachername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/student_grade_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+</LinearLayout>
